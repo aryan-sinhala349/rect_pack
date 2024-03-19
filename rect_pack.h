@@ -27,13 +27,13 @@ enum class Method {
 };
 
 struct Size {
-  int id;
+  uintptr_t id;
   int width;
   int height;
 };
 
 struct Rect {
-  int id;
+  uintptr_t id;
   int x;
   int y;
   int width;
